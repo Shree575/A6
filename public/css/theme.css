@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows Into Light');
+@import url('https://fonts.googleapis.com/css?family=Genos');
+@import url('https://fonts.googleapis.com/css?family=Indie Flower');
+@import url('https://fonts.googleapis.com/css?family=Mynerve');
+
+html {
+    background:red; 
+    background: linear-gradient( to bottom, red, rgb(212, 184, 206)  );
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+}
+
+
+
+body {
+  background: linear-gradient( rgba(255, 196, 0, 0.658), rgb(233, 90, 209));
+  overflow: auto; 
+  font-family: 'Indie Flower', sans-serif; 
+  color: white;
+
+  
+}
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('earth.jpg');
+  background: radial-gradient;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-light{
+    background: linear-gradient(to left top, rgb(14, 216, 122), rgb(196, 190, 173));
+    font-size:x-large;
+    box-shadow: 0 0 10px rgba(214, 21, 21, 0.1);
+  }
+
+  .navbar-brand {
+    font-family: 'Mynerve', sans-serif;
+    font-size:x-large;
+    color: #fff; 
+    text-shadow: 1px 1px 2px #ce1c1c; 
+  }
+
+  .nav-link {
+    font-family: "Shadows Into Light", sans-serif;
+    font-size: xx-large;
+    color: #eceff0; 
+    text-shadow: 2px 2px 2px #969090; 
+  }
+  
+  .nav-link:hover {
+    color: #0ae75fea; 
+    text-decoration: none;
+  }
+  
+  a{
+    color: #460446;
+    font-size: x-large;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(to bottom, #007bff, #0062cc);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(to bottom, #0062cc, #005cbf);
+    cursor: pointer;
+  }
+
+  .btn-primary {
+
+    background-image: linear-gradient(to bottom, #a5c710, #00d991);
+    color: #e7d2d2;
+    font-size: large;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding: 0.5rem 1rem;
+    border-radius: 0.30rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(to bottom, #be14c4, #0b3b6e);
+    color: #82ec08;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+    
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Genos', sans-serif;
+    color: #2c3e50; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); 
+  }
+
+  a {
+    color: #d41bb6; 
+    text-decoration: none; 
+  }
+  
+  a:hover {
+    color: #7a4039; 
+    text-decoration: underline; 
+  }
+
+  fieldset legend {
+    font-family: 'Mynerve', sans-serif;
+    font-size: xx-large;
+    color: #8b1044; 
+    text-shadow: 1.5px 1.5px 1.5px rgba(114, 19, 19, 0.5); 
+    padding: 10px 0; 
+  }
+  
+ 
+    
+    

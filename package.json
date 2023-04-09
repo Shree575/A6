@@ -5,17 +5,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
+    
+  
   },
+
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shree575/A6.git"
+    "url": "git+https://github.com/Shree575/a6.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Shree575/A6/issues"
+    "url": "https://github.com/Shree575/a6/issues"
   },
-  "homepage": "https://github.com/Shree575/A6#readme",
+  "homepage": "https://github.com/Shree575/a6#readme",
   "dependencies": {
     "express": "^4.18.2",
     "express-handlebars": "^7.0.4",
@@ -24,5 +27,7 @@
     "pg": "^8.10.0",
     "sequelize": "^6.30.0"
   },
+
+  
   "description": ""
 }

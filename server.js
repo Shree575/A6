@@ -1,7 +1,7 @@
-var HTTP_PORT = process.env.PORT || 8080;
-var express = require("express");
-var exphbs = require("express-handlebars")
-var app = express();
+const HTTP_PORT = process.env.PORT || 8080;
+const express = require("express");
+const exphbs = require("express-handlebars")
+const app = express();
 const cd = require('./modules/collegedata.js');
 
 app.use(express.static('public'))
@@ -231,16 +231,16 @@ app.get('/student/delete/:studentNum', (req, res) => {
     });
 });
 
-app.get("/students/add", function(req, res) {
-  cd.getCourses()
-    .then(function(data) {
-      res.render("addStudentForm", {courses: data});
-    })
-    .catch(function(err) {
-      console.log(err);
-      res.render("addStudentForm", {courses: []});
-    });
-});
+// app.get("/students/add", function(req, res) {
+//   cd.getCourses()
+//     .then(function(data) {
+//       res.render("addStudentForm", {courses: data});
+//     })
+//     .catch(function(err) {
+//       console.log(err);
+//       res.render("addStudentForm", {courses: []});
+//     });
+// });
 
 app.get('*', function(req, res){
     res.status(404).send('PAGE NOT FOUND!!!!');

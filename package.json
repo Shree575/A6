@@ -1,7 +1,6 @@
 {
   "name": "a6",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,6 +17,12 @@
   },
   "homepage": "https://github.com/Shree575/A6#readme",
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "package": "^1.0.1",
+    "pakage": "^1.0.0",
+    "pg": "^8.10.0",
+    "sequelize": "^6.30.0"
+  },
+  "description": ""
 }

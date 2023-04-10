@@ -250,7 +250,6 @@ module.exports.updateStudent = function(studentData) {
 
       
 module.exports.addCourse= function(courseData) {
-  // Ensure any blank values in courseData are set to null
   for (const property in courseData) {
     if (courseData[property] === "") {
       courseData[property] = null;
@@ -262,43 +261,14 @@ module.exports.addCourse= function(courseData) {
     // Invoke the Course.create() function
     Course.create(courseData)
       .then(() => {
-        // If the Course.create() operation resolved successfully, invoke the resolve method for the promise
         resolve();
       })
       .catch((err) => {
-        // If there was an error at any time during this process, invoke the reject method and pass a meaningful message
         reject("unable to create course");
       });
   });
 }
 
-
-// const Sequelize = require('sequelize');
-// const sequelize = new Sequelize('sqlite::memory:');
-
-
-
-
-
-// function addCourse(courseData) {
-//   // Replace empty strings with null
-//   for (const [key, value] of Object.entries(courseData)) {
-//     if (value === "") {
-//       courseData[key] = null;
-//     }
-//   }
-//   console.log(courseData)
-//   // Create the course using Course.create()
-//   return Course.create(courseData)
-//     .then(() => {
-//       // Resolve the promise if the operation is successful
-//       return Promise.resolve();
-//     })
-//     .catch(() => {
-//       // Reject the promise if there is an error
-//       return Promise.reject("Unable to create course");
-//     });
-// }
 
 
 module.exports.updateCourse= function(courseData) {

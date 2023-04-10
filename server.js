@@ -2,7 +2,7 @@ const HTTP_PORT = process.env.PORT || 8080;
 const express = require("express");
 const exphbs = require("express-handlebars")
 const app = express();
-const cd = require('./modules/collegedata.js');
+const cd = require('./modules/collegeData.js');
 
 app.use(express.static('public'))
 
